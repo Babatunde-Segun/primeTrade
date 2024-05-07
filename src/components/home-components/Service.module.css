@@ -1,0 +1,45 @@
+.serviceMainContainer {
+  display: flex;
+  margin: 8rem auto;
+  padding: 0 2rem;
+  justify-content: center;
+  align-items: center;
+  gap: 2rem;
+  flex-wrap: wrap;
+}
+
+.serviceDetailContainer {
+  width: 50%;
+}
+
+.serviceDetailContainer h2 {
+  font-size: 3rem;
+  line-height: 1;
+  letter-spacing: -1.5px;
+  width: 80%;
+}
+
+.serviceTabs {
+  max-width: 40rem;
+  font-size: 1.3rem;
+}
+
+@media screen and (max-width: 900px) {
+  .serviceMainContainer {
+    padding: 0 2%;
+    gap: 4rem;
+  }
+
+  .serviceDetailContainer {
+    width: 80%;
+  }
+
+  .serviceDetailContainer h2 {
+    width: 95%;
+    font-size: 1.5rem;
+  }
+
+  .serviceTabs {
+    font-size: 1rem;
+  }
+}

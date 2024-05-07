@@ -1,0 +1,52 @@
+.howMainContainer {
+  margin-top: 8rem;
+  padding: 3rem 0;
+}
+
+.howMainContainer h3 {
+  text-align: center;
+  color: inherit;
+  font-size: 2.5rem;
+  letter-spacing: -1px;
+  line-height: 1;
+}
+
+.howContainer {
+  display: flex;
+  gap: 2rem;
+  /* flex-wrap: wrap; */
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap-reverse;
+}
+
+.howSubcontainer {
+  width: 50%;
+}
+
+.howContainer h3 {
+  text-align: center;
+}
+
+.howDetail {
+  font-size: 1.3rem;
+  list-style: square;
+  margin: 1.5rem 0 2rem;
+}
+.howDetail span {
+  font-size: 1rem;
+  line-height: 1;
+}
+
+.howImgContainer {
+  max-width: 30rem;
+}
+
+@media screen and (max-width: 875px) {
+  .howMainContainer {
+    padding: 3% 0;
+  }
+  .howSubcontainer {
+    width: 80%;
+  }
+}

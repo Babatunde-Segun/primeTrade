@@ -1,0 +1,85 @@
+.actionMainContainer {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  padding: 0 4rem;
+  margin: 0 auto;
+  max-width: 90rem;
+  gap: 3rem;
+}
+
+.actionContainer {
+  padding: 1rem 2rem 3rem;
+  background-color: #f4f4f4;
+  max-width: 30rem;
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+  border-radius: 10px;
+}
+
+.actionContainer h2 {
+  display: flex;
+  gap: 10px;
+  font-size: 2rem;
+  font-weight: 600;
+  letter-spacing: -1;
+  color: #052a45;
+  align-items: center;
+}
+
+.actionContainer h2 span {
+  font-size: 0.9rem;
+  padding: 0.4rem;
+  background-color: #eeeeff;
+  color: #ff6b00;
+
+  border-radius: 500rem;
+}
+
+.actionContainer h5 {
+  font-size: 12px;
+}
+
+.actionContainer h3 {
+  font-size: 1.9rem;
+  font-weight: 600;
+}
+
+.actionContainer p {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  font-size: 1.2rem;
+  font-weight: 500;
+}
+
+.actionIcon {
+  padding: 4px;
+  background-color: #141414;
+  color: #fff;
+  font-size: 1.5rem;
+  border-radius: 50%;
+}
+
+.actionBtnContainer {
+  margin-top: 1.5rem;
+  max-width: 100%;
+}
+
+.actionBtnContainer button {
+  padding: 1rem 2rem;
+  width: 100%;
+  font-size: 1.3rem;
+  color: white;
+  background-color: #ff6b00;
+}
+
+@media screen and (max-width: 600px) {
+  .actionContainer {
+    padding: 5% 4%;
+  }
+  .actionMainContainer {
+    padding: 0 1%;
+  }
+}

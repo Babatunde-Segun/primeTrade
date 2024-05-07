@@ -1,0 +1,103 @@
+.htiContainer {
+  margin: 4rem auto;
+  padding: 0 6rem;
+}
+
+.htiContainer h4 {
+  font-size: 1.2rem;
+  text-transform: uppercase;
+  line-height: 1;
+  font-size: 700;
+  color: #11181c;
+}
+
+.htiContainer h2 {
+  font-size: 2.4rem;
+  text-align: center;
+  font-weight: 600;
+  max-width: 60%;
+  margin: 3rem auto 5rem;
+  line-height: 1;
+}
+
+.htiAction {
+  display: flex;
+  gap: 2rem;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+
+.htiIconContainer {
+  display: flex;
+  flex-direction: column;
+  gap: 2.5rem;
+  align-items: center;
+  justify-content: center;
+  position: relative;
+}
+
+.htiIcon {
+  font-size: 30px;
+  position: relative;
+}
+
+.htiIcon::before {
+  content: "";
+  position: absolute;
+  border: 1px solid currentColor;
+  top: 0;
+  left: 0;
+  width: 70px;
+  height: 70px;
+  padding: 10px;
+  transform: translate(-18px, -18px);
+  border-radius: 50%;
+}
+
+.htiIconLast {
+  font-size: 30px;
+  position: relative;
+}
+
+.htiIconLast::before {
+  content: "";
+  position: absolute;
+  border: 1px solid currentColor;
+  top: 0;
+  left: 0;
+  width: 70px;
+  height: 70px;
+  padding: 10px;
+  transform: translate(-20px, -18px);
+  border-radius: 50%;
+  background-color: rgba(245, 101, 5, 0.863);
+  z-index: -1;
+}
+
+.htiImg {
+  width: 30px;
+  position: absolute;
+  top: 0;
+  left: 0;
+  transform: translate(42px, -28px);
+  z-index: 2;
+}
+
+@media screen and (max-width: 900px) {
+  .htiContainer {
+    padding: 0 3%;
+  }
+
+  .htiContainer h2 {
+    max-width: 80%;
+    font-size: 1.5rem;
+  }
+
+  .htiContainer h4 {
+    width: 80%;
+    line-height: 1.3;
+  }
+  .htiAction {
+    gap: 3rem;
+  }
+}

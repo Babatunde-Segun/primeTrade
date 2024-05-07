@@ -1,0 +1,92 @@
+.ipSubcon {
+  position: relative;
+}
+
+.ipH1 {
+  margin: 6rem auto 7rem;
+  font-size: 4rem;
+  line-height: 1;
+
+  max-width: 60%;
+
+  font-weight: 700;
+  text-align: center;
+
+  /* width: 100%; */
+}
+@media screen and (max-width: 999px) {
+  .ipH1 {
+    font-size: 3rem;
+  }
+}
+
+@media screen and (max-width: 750px) {
+  .ipH1 {
+    font-size: 3rem;
+    max-width: 80%;
+  }
+}
+
+@media screen and (max-width: 560px) {
+  .ipH1 {
+    font-size: 2.3rem;
+  }
+}
+@media screen and (max-width: 460px) {
+  .ipH1 {
+    /* font-size: 2.4rem; */
+    max-width: 99%;
+  }
+}
+
+.span {
+  color: orange;
+  border: none;
+  padding-bottom: -3px;
+  position: relative;
+  z-index: 1;
+}
+
+.span::after {
+  position: absolute;
+  /* border-bottom: 4px solid orangered; */
+  background-color: orange;
+  content: "";
+  padding-bottom: 2px;
+  height: 1px;
+  bottom: 10%;
+  z-index: -1;
+  right: 0;
+  width: 100%;
+  /* margin-top: -5px; */
+  /* width: 100%; */
+}
+
+.img1 {
+  position: absolute;
+  top: -26%;
+  left: 5%;
+  max-width: 4rem;
+  transform: translate(50%, 50%);
+}
+.img2 {
+  position: absolute;
+  top: 10%;
+  left: 87%;
+  max-width: 7rem;
+  transform: translate(-50%, -50%);
+}
+.img3 {
+  position: absolute;
+  top: 43%;
+  left: 20%;
+  max-width: 10rem;
+  transform: translate(-50%, 50%);
+}
+.img4 {
+  position: absolute;
+  top: 43%;
+  left: 50%;
+  max-width: 8rem;
+  transform: translate(50%, -50%);
+}
